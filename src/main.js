@@ -4,10 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vant from 'vant';
+import Mint from 'mint-ui';
 import 'vant/lib/index.css';
+import echarts from 'echarts'
+import axios from 'axios'
 
 Vue.use(Vant);
+Vue.use(Mint);
 
+Vue.prototype.$echarts = echarts
+Vue.prototype.$axios=axios
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
