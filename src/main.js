@@ -8,8 +8,11 @@ import Mint from 'mint-ui';
 import 'vant/lib/index.css';
 import echarts from 'echarts'
 import axios from 'axios'
+import Vuex from 'vuex'
+import store from './store/store.js';
 
 Vue.use(Vant);
+Vue.use(Vuex);
 Vue.use(Mint);
 
 Vue.prototype.$echarts = echarts

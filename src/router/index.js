@@ -45,6 +45,16 @@ export default new Router({
       path:'/father',
       name:'father',
       component:resolve=>require(['@/components/father.vue'],resolve)
+    },
+    {
+      path:'/vuex',
+      name:'vuex',
+      component:resolve=>require(['@/components/vuex.vue'],resolve)
+    },
+    {
+      path:'/citylist',
+      name:'citylist',
+      component:resolve=>require(['@/components/citylist.vue'],resolve)
     }
   ]
 })
